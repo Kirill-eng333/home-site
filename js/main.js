@@ -27,7 +27,9 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="images/content/rith (12).png" alt=""></button>',
     nextArrow: '<button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="images/content/rith (12).png" alt=""></button>'
-  })
+  });
+
+  $('.filter-style').styler();
   
 
 });

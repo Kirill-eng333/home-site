@@ -1036,6 +1036,34 @@ button.product-item__favorite--active::before{
   display: block;
 }
 
+.aside-filter__tabs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-filter__tab{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  width: 50%;
+}
+
+.aside-filter__tab.tab--active{
+  font-family: 'SF Pro Display-Bold', sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.aside-filter__tab.tab--active span{
+  padding-bottom: 7px;
+  display: inline-block;
+  border-bottom: 2px solid #1c62cd;
+}
+
+
 
 
 
